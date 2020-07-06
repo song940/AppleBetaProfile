@@ -1,0 +1,75 @@
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+.banner {
+  width: 100%;
+}
+
+.profiles {
+  overflow: scroll;
+  white-space: nowrap;
+}
+
+.card {
+  width: 207px;
+  height: 276px;
+  text-align: center;
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  border-radius: 22px;
+  box-shadow: 0 0 30px rgba(200, 200, 200, 0.25);
+}
+
+.card .icon {
+  width: 80px;
+  height: 80px;
+  padding-top: 36px;
+}
+
+.card .name {
+  color: #fff;
+  display: block;
+  margin: 40px 0;
+}
+
+.button {
+  display: block;
+  margin: 0 auto 10px;
+  width: 100px;
+  border: 1px solid #ffffff;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 13px;
+  line-height: 24px;
+  text-decoration: none;
+}
+
+.magic-purple {
+  background: -webkit-gradient(linear,left bottom,left top,from(#f58583),color-stop(47%,#ab67a2),to(#5f54a2));
+  background: -webkit-linear-gradient(bottom,#f58583,#ab67a2 47%,#5f54a2);
+  background: -o-linear-gradient(bottom,#f58583,#ab67a2 47%,#5f54a2);
+  background: linear-gradient(12deg, #5412b2 6.3%, #ed3b41 52.52%, rgba(247, 166, 86, 0.76));
+}
+
+.iOS14 {
+  background: linear-gradient(140deg, #ffe1be 3.78%, #ff3b3b 53.36%, rgba(48, 57, 255, 1));
+}
+
+.iPadOS14 {
+  background: linear-gradient(163deg, #ff214b 3.78%, #8c20af 56.72%, rgba(48, 28, 252, 1));
+}
+
+.macOS11 {
+  background: linear-gradient(156deg, #00b6ff 10.08%, rgba(61, 61, 106, 1));
+}
+
+.watchOS7 {
+  background-image: -webkit-linear-gradient(296deg, rgba(69, 216, 174, 0.97) 28.99%, rgba(87, 102, 229, 1));
+}
+
+.tvOS14 {
+  background: linear-gradient(183deg, #44e2ce 10.08%, rgba(61, 61, 106, 1));
+}
